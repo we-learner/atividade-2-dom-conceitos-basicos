@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Interativa</title>
+</head>
+<body>
+    <h1>DOM: Página Interativa com JavaScript</h1>
+
+    <div>
+        <h2>Contador de Cliques</h2>
+        <button id="botaoAumentar">Aumentar</button>
+        <button id="botaoDiminuir">Diminuir</button>
+        <span id="contador">0</span>
+    </div>
+
+    <div>
+        <h2>Adicionar Texto</h2>
+        <input type="text" id="campoTexto" placeholder="Digite algo e pressione Enter">
+        <p>Quantidade de Caracteres (sem espaços): <span id="contadorCaracteres">0</span></p>
+    </div>
+
+    <div>
+        <h2>Adicionar Tipo de Lista</h2>
+        <select id="tipoLista">
+            <option value="ul">Lista Não Ordenada</option>
+            <option value="ol">Lista Ordenada</option>
+        </select>
+        <button id="botaoAdicionarItem">Adicionar Item</button>
+    </div>
+
+    <div>
+        <h2>Reiniciar Página</h2>
+        <button id="botaoResetar">Apagar Tudo</button>
+    </div>
+
+    <h2>Conteúdo da Página</h2>
+    <div id="areaConteudo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
