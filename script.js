@@ -54,7 +54,7 @@ botaoAdicionarItem.onclick = function ()
     const tipo = tipoLista.value;
 
     if (!listaAtual || listaAtual.tagName.toLowerCase() !== tipo)
-        {
+    {
         listaAtual = document.createElement(tipo);
         areaConteudo.appendChild(listaAtual);
     }
